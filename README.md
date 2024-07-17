@@ -95,7 +95,7 @@ Task ToggleHead is a Node.js and MongoDB-based project built with TypeScript. Th
 
 You can use the following Postman collection to test the APIs:
 
-[Postman Collection Link](#)
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/33652057-a35f601a-ee45-4089-9277-7cedd0591af9?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D33652057-a35f601a-ee45-4089-9277-7cedd0591af9%26entityType%3Dcollection%26workspaceId%3D4a5849c1-b9d3-49c9-b190-e6223602a3c4)
 
 ## Available Scripts
 
