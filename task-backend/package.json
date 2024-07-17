@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/app.ts",
+    "dev": "nodemon ./dist/src/app.js",
     "build": "npx tsc",
     "init": "nodemon ./src/services/initialize_demodata.ts"
   },
