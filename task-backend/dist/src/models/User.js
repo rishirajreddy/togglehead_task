@@ -13,13 +13,19 @@ const UserSchema = new mongoose_1.Schema({
     },
     password: {
         type: String,
-        required: true
+        required: true,
+        select: false
     },
     name: {
         type: String,
         required: true
     },
     phone: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    country_code: {
         type: String,
         required: true
     },

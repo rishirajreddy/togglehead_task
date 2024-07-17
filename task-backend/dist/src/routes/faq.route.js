@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const router = (0, express_1.Router)();
+const auth_1 = require("../middlewares/auth");
+const faq_controller_1 = require("../controllers/faq.controller");
+router.post("/", auth_1.adminAccess, faq_controller_1.create);
+router.get("/", faq_controller_1.findAll);
+router.put("/:id/re-order", auth_1.adminAccess, faq_controller_1.reOrderFaqs);
+router.delete("/:id", auth_1.adminAccess, faq_controller_1.deleteFaq);
+router.put("/:id", auth_1.adminAccess, faq_controller_1.updateFaq);
+exports.default = router;
