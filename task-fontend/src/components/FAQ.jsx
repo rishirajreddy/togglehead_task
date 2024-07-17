@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { getFaqs } from '../apis/faq';
 const FAQ = () => {
-    const [faqs, setFaqs] = useState("")
+    const [faqs, setFaqs] = useState([])
     const getAllFaqs = async () => {
         try {
             const res = await getFaqs();
