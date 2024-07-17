@@ -70,6 +70,27 @@ Task ToggleHead is a Node.js and MongoDB-based project built with TypeScript. Th
     npm run dev
     ```
 
+## Frontend Routes
+
+### Admin Routes
+
+1. **Login**
+
+    Use the following credentials to login as an admin:
+
+    ```json
+    {
+        "email": "superadmin@gmail.com",
+        "password": "12345678"
+    }
+    ```
+
+    After logging in, you will be redirected to the banners upload page.
+
+2. **Banners Upload**
+
+    Route: `/admin/banner`
+   
 ## API Documentation
 
 You can use the following Postman collection to test the APIs:
