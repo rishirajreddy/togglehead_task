@@ -1,8 +1,10 @@
 import Banner from "../models/Banner";
 import Faq from "../models/Faq";
+import dbConnection from "../database";
 
 const initializeDemoData = async () => {
     try {
+        await dbConnection();
         const banners = [
             {
                 title: "Banner 1",
